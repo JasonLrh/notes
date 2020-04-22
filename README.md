@@ -4,4 +4,6 @@
 
 > 适用于 Visual Studio Code
 
-> ## 预览公式可能需要下载插件
+> ## 预览公式可能需要下载插件  
+> * Markdown All in One
+> * Markdown Preview Enhanced
