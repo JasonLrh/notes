@@ -8,19 +8,19 @@
 
 > using namespace cv;  
 
-GUI
-====
+## GUI
+
 cv::`namedWindow` `("window name",WINDOW_AUTOSIZE)`;  
 cv::`imshow` `("window name",src)`;
 
-数据类
------
+## 数据类
+
 cv::`Mat`
 > `Mat` src = `imread` `("filePath",IMREAD_COLOR)`;  
 > `imwrite` `("filePath",src)`;  
 
-时间度量
---------
+## 时间度量
+
 > `double` t = (`double`)`getTickCount`();  
 > ...  
 > t = (`getTickCount`()-t)/`getTickFrequency`();  
